@@ -1,0 +1,27 @@
+body {
+    background-color: grey;
+}
+
+#container {
+    display: grid;
+    grid-template-rows: repeat(var(--grid-rows), 1fr);
+    grid-template-columns: repeat(var(--grid-cols), 1fr);
+    line-height: 0;
+}
+
+#flex_container {
+    display: flex;
+    justify-content: center;
+}
+
+button {
+    text-align: center;
+    margin-bottom: 50px;
+}
+
+.grid-item {
+    padding: 1em;
+    border: 1px solid #ddd;
+    text-align: center;
+    aspect-ratio: 1/1;
+}
